@@ -9,8 +9,52 @@ import java.util.Date;
  * 
  */
 public class Student implements Comparable {
-
-	/**
+void getDetails(int n)
+{
+	int i;
+	Scanner get=new Scanner(system.in);
+	int limit=n;
+	system.out.println("enter +limit+ Student \n");
+	for(int i=0;i<limit;i++)
+	{
+	  system.out.println("enter student #" +(i+1)+" Name, rollno, marks");
+	  for(int i=0;i<limit;i++)
+		{
+		  name[i][j]=get.nextLine();
+		}
+	}
+          display limit;	
+	 }
+	  void display(int limit)
+	 {
+	  	  system.out.println("student name"+"\t"+rollno"+"\t"+marks");
+		  for(int i=0;i<limit;i++)
+		{
+		  for(int j=0;j<3;j++)
+			{
+			  system.out.println(name[i][j]+"\t\t");
+			}
+			  system.out.println();
+		}
+	}
+}
+class BVRIT
+{
+	public static void main(String args[args])throws IOException
+	{
+	  Scanner s=new Scanner(system.in);
+	  system.out.println("enter the total number of students in the class:");
+	  for(int i=0;i<n;i++)
+	  {
+	   for(j=0;j<n;j++)
+	   {
+	  Student a=new Student();
+	  a.name="Sonu";
+	  a.grade="59.64";
+	  a.roll no="14211a0533";
+	  a.gender="female";
+	  system.out.println("student name"+\n"student grade"+\n"student roll no"+\n"student gender");
+	 /**
 	 * student id
 	 */
 	private int id;
